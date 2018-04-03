@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		4AF5421D207323D70045B43F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF5421C207323D70045B43F /* AppDelegate.swift */; };
-		4AF5421F207323D70045B43F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF5421E207323D70045B43F /* ViewController.swift */; };
+		4AF5421F207323D70045B43F /* HorizonScrollVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF5421E207323D70045B43F /* HorizonScrollVC.swift */; };
 		4AF54222207323D70045B43F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AF54220207323D70045B43F /* Main.storyboard */; };
 		4AF54224207323D70045B43F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AF54223207323D70045B43F /* Assets.xcassets */; };
 		4AF54227207323D70045B43F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AF54225207323D70045B43F /* LaunchScreen.storyboard */; };
 		4AF54232207323D70045B43F /* UIScrollViewAutoLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF54231207323D70045B43F /* UIScrollViewAutoLayoutTests.swift */; };
 		4AF5423D207323D80045B43F /* UIScrollViewAutoLayoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF5423C207323D80045B43F /* UIScrollViewAutoLayoutUITests.swift */; };
+		4AF5424B2073242D0045B43F /* VerticalScrollVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF5424A2073242D0045B43F /* VerticalScrollVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		4AF54219207323D70045B43F /* UIScrollViewAutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIScrollViewAutoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AF5421C207323D70045B43F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4AF5421E207323D70045B43F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4AF5421E207323D70045B43F /* HorizonScrollVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizonScrollVC.swift; sourceTree = "<group>"; };
 		4AF54221207323D70045B43F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4AF54223207323D70045B43F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4AF54226207323D70045B43F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		4AF54238207323D80045B43F /* UIScrollViewAutoLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIScrollViewAutoLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AF5423C207323D80045B43F /* UIScrollViewAutoLayoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollViewAutoLayoutUITests.swift; sourceTree = "<group>"; };
 		4AF5423E207323D80045B43F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AF5424A2073242D0045B43F /* VerticalScrollVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalScrollVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				4AF5421C207323D70045B43F /* AppDelegate.swift */,
-				4AF5421E207323D70045B43F /* ViewController.swift */,
+				4AF5421E207323D70045B43F /* HorizonScrollVC.swift */,
+				4AF5424A2073242D0045B43F /* VerticalScrollVC.swift */,
 				4AF54220207323D70045B43F /* Main.storyboard */,
 				4AF54223207323D70045B43F /* Assets.xcassets */,
 				4AF54225207323D70045B43F /* LaunchScreen.storyboard */,
@@ -259,7 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AF5421F207323D70045B43F /* ViewController.swift in Sources */,
+				4AF5421F207323D70045B43F /* HorizonScrollVC.swift in Sources */,
+				4AF5424B2073242D0045B43F /* VerticalScrollVC.swift in Sources */,
 				4AF5421D207323D70045B43F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

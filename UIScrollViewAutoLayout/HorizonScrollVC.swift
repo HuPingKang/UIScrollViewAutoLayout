@@ -8,11 +8,21 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class HorizonScrollVC: UIViewController {
 
+    @IBOutlet weak var horizonWidth: NSLayoutConstraint!
+    
+    @IBAction func goBack(_ sender: Any) {
+        
+        self.dismiss(animated: true, completion: nil)
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        self.horizonWidth.constant = self.view.bounds.size.width*2
+        
     }
 
     override func didReceiveMemoryWarning() {

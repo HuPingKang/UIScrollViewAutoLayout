@@ -1,24 +1,171 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="PingFang.ttc">
+            <string>PingFangSC-Semibold</string>
+        </array>
+    </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--Vertical ScrollVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="VerticalScrollVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="VerticalScrollVC" customModule="UIScrollViewAutoLayout" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ucm-hy-wQb">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IWt-9S-XQX">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fUy-TP-R5B">
+                                                <rect key="frame" x="15" y="15" width="345" height="974"/>
+                                                <mutableString key="text">韩寒，1982年9月23日出生于上海市金山区亭林镇，中国作家、导演、职业赛车手。
+1999年，他以《杯中窥人》一文获得首届全国新概念作文比赛一等奖 [1]  。2000年，在上高一的韩寒退学，后出版首部长篇小说《三重门》。2001年，他出版文集《零下一度》，该书获得当年全国图书畅销排行榜第一名。2002年，他出版小说《像少年啦飞驰》。2003开始职业赛车生涯。2004年3月，他出版文集《韩寒五年》。2005年开通博客，开始博客写作 [2]  。2006年9月，发行个人首张唱片书《寒·十八禁》 [3]  。2009年，他主编《独唱团》。2010年，韩寒登上美国《时代周刊》封面 [4]  。2011年，他出版杂文集《青春》。2012年6月，韩寒发布了APP阅读应用“ONE·一个” [5]  。2013年，他出版《一个：很高兴见到你》。2014年7月导演的《后会无期》在中国内地上映 [6]  。2015年担任青春电影《沙漏》的监制 [7]  。
+2017年1月28日，韩寒编剧并执导的第二部电影《乘风破浪》上映 [8]  。2014年9月8日中秋节当晚，韩寒被爆出现身上海虹桥机场幽会女星赵卓娜，还接对方回家共待一夜。就在上个月，还有爆料称韩寒老婆金丽华已经怀上二胎。 [48]  11月7日，韩寒妻子金丽华再度怀孕后已经生产，得一儿子。 [49] 010年，韩寒与金丽华结婚，金丽华于11月17日在美华医院产下一女 [44]  。
+2013年11月11日，韩寒在个人微博上晒出自己女儿小野的照片 [45]  。随后引来网友热捧，点赞的同时纷纷留言称韩寒为“国民岳父” [46]  。
+2014年4月24日，韩寒在微博晒出女儿小野可爱的婴儿照 ，照片中小野还处在婴儿期，被韩寒塞到一个黑色背包里，露出天真无邪的笑容，看上去像个假小子，跟小萝莉的样子判若两人 [12]  [47]  。
+2014年9月8日中秋节当晚，韩寒被爆出现身上海虹桥机场幽会女星赵卓娜，还接对方回家共待一夜。就在上个月，还有爆料称韩寒老婆金丽华已经怀上二胎。 [48]  11月7日，韩寒妻子金丽华再度怀孕后已经生产，得一儿子。 [49] .2014年9月8日中秋节当晚，韩寒被爆出现身上海虹桥机场幽会女星赵卓娜，还接对方回家共待一夜。就在上个月，还有爆料称韩寒老婆金丽华已经怀上二胎。 [48]  11月7日，韩寒妻子金丽华再度怀孕后已经生产，得一儿子。 [49] .</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hIE-1T-Fcf">
+                                                <rect key="frame" x="147.5" y="1019" width="80" height="45"/>
+                                                <color key="backgroundColor" red="0.80000000000000004" green="0.78823529410000004" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="45" id="7Cl-bf-d1M"/>
+                                                    <constraint firstAttribute="width" constant="80" id="uAS-zw-nSe"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="PingFangSC-Semibold" family="PingFang SC" pointSize="18"/>
+                                                <state key="normal" title="Go Next"/>
+                                                <connections>
+                                                    <action selector="goNext:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bb5-Ud-AGD"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="667" id="KFs-UH-7Z4"/>
+                                            <constraint firstItem="fUy-TP-R5B" firstAttribute="leading" secondItem="IWt-9S-XQX" secondAttribute="leading" constant="15" id="cdf-3I-RHq"/>
+                                            <constraint firstItem="hIE-1T-Fcf" firstAttribute="top" secondItem="fUy-TP-R5B" secondAttribute="bottom" constant="30" id="djM-Wd-Ju8"/>
+                                            <constraint firstItem="hIE-1T-Fcf" firstAttribute="centerX" secondItem="IWt-9S-XQX" secondAttribute="centerX" id="iIC-RE-jAP"/>
+                                            <constraint firstItem="fUy-TP-R5B" firstAttribute="top" secondItem="IWt-9S-XQX" secondAttribute="top" constant="15" id="lYw-tE-5px"/>
+                                            <constraint firstAttribute="trailing" secondItem="fUy-TP-R5B" secondAttribute="trailing" constant="15" id="scX-wj-FwS"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="IWt-9S-XQX" secondAttribute="bottom" id="44D-Wm-FfW"/>
+                                    <constraint firstItem="IWt-9S-XQX" firstAttribute="centerX" secondItem="Ucm-hy-wQb" secondAttribute="centerX" id="5et-6X-daB"/>
+                                    <constraint firstItem="IWt-9S-XQX" firstAttribute="top" secondItem="Ucm-hy-wQb" secondAttribute="top" id="HHg-tJ-Bh7"/>
+                                    <constraint firstAttribute="trailing" secondItem="IWt-9S-XQX" secondAttribute="trailing" id="P4I-UN-m02"/>
+                                    <constraint firstItem="IWt-9S-XQX" firstAttribute="leading" secondItem="Ucm-hy-wQb" secondAttribute="leading" id="ggF-35-9yo"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.80000000000000004" green="0.78823529410000004" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ucm-hy-wQb" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="0JO-jL-4Se"/>
+                            <constraint firstItem="Ucm-hy-wQb" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="C0D-gv-Y8h"/>
+                            <constraint firstItem="Ucm-hy-wQb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="NzL-A7-vml"/>
+                            <constraint firstItem="Ucm-hy-wQb" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="SiO-So-1f7"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="verticalHeight" destination="KFs-UH-7Z4" id="dLf-LP-IAx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="33.733133433283363"/>
+        </scene>
+        <!--Horizon ScrollVC-->
+        <scene sceneID="miQ-75-CQC">
+            <objects>
+                <viewController storyboardIdentifier="HorizonScrollVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="itU-SG-7ms" customClass="HorizonScrollVC" customModule="UIScrollViewAutoLayout" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GOq-Wa-l7L">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="65g-4O-zLC">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KaH-JH-Qd1">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZPq-AO-MIy">
+                                                <rect key="frame" x="15" y="15" width="345" height="446.5"/>
+                                                <mutableString key="text">2010年，韩寒与金丽华结婚，金丽华于11月17日在美华医院产下一女 [44]  。
+2013年11月11日，韩寒在个人微博上晒出自己女儿小野的照片 [45]  。随后引来网友热捧，点赞的同时纷纷留言称韩寒为“国民岳父” [46]  。
+2014年4月24日，韩寒在微博晒出女儿小野可爱的婴儿照 ，照片中小野还处在婴儿期，被韩寒塞到一个黑色背包里，露出天真无邪的笑容，看上去像个假小子，跟小萝莉的样子判若两人 [12]  [47]  。
+2014年9月8日中秋节当晚，韩寒被爆出现身上海虹桥机场幽会女星赵卓娜，还接对方回家共待一夜。就在上个月，还有爆料称韩寒老婆金丽华已经怀上二胎。 [48]  11月7日，韩寒妻子金丽华再度怀孕后已经生产，得一儿子。 [49] .2014年9月8日中秋节当晚，韩寒被爆出现身上海虹桥机场幽会女星赵卓娜，还接对方回家共待一夜。就在上个月，还有爆料称韩寒老婆金丽华已经怀上二胎。 [48]  11月7日，韩寒妻子金丽华再度怀孕后已经生产，得一儿子。 [49] .</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rIE-fU-9Dl">
+                                                <rect key="frame" x="147.5" y="491.5" width="80" height="45"/>
+                                                <color key="backgroundColor" red="0.80000000000000004" green="0.78823529410000004" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="80" id="fyD-3t-Daw"/>
+                                                    <constraint firstAttribute="height" constant="45" id="gU5-AT-jqe"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="PingFangSC-Semibold" family="PingFang SC" pointSize="18"/>
+                                                <state key="normal" title="Go Back"/>
+                                                <connections>
+                                                    <action selector="goBack:" destination="itU-SG-7ms" eventType="touchUpInside" id="q5t-Kz-Lr0"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="ZPq-AO-MIy" firstAttribute="leading" secondItem="KaH-JH-Qd1" secondAttribute="leading" constant="15" id="D2Z-s6-iwX"/>
+                                            <constraint firstItem="rIE-fU-9Dl" firstAttribute="top" secondItem="ZPq-AO-MIy" secondAttribute="bottom" constant="30" id="JYs-kX-sUw"/>
+                                            <constraint firstAttribute="trailing" secondItem="ZPq-AO-MIy" secondAttribute="trailing" constant="15" id="ctf-Ys-BY6"/>
+                                            <constraint firstAttribute="width" constant="375" id="hab-Iz-pRD"/>
+                                            <constraint firstItem="ZPq-AO-MIy" firstAttribute="top" secondItem="KaH-JH-Qd1" secondAttribute="top" constant="15" id="hxk-Hc-z8W"/>
+                                            <constraint firstItem="rIE-fU-9Dl" firstAttribute="centerX" secondItem="KaH-JH-Qd1" secondAttribute="centerX" id="kkA-11-im3"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="KaH-JH-Qd1" secondAttribute="trailing" id="0ax-ot-o3g"/>
+                                    <constraint firstItem="KaH-JH-Qd1" firstAttribute="top" secondItem="65g-4O-zLC" secondAttribute="top" id="3kf-hb-VRU"/>
+                                    <constraint firstAttribute="bottom" secondItem="KaH-JH-Qd1" secondAttribute="bottom" id="S2D-MJ-3xU"/>
+                                    <constraint firstItem="KaH-JH-Qd1" firstAttribute="centerY" secondItem="65g-4O-zLC" secondAttribute="centerY" id="cH1-Gm-vAI"/>
+                                    <constraint firstItem="KaH-JH-Qd1" firstAttribute="leading" secondItem="65g-4O-zLC" secondAttribute="leading" id="xsL-hJ-dFa"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.90588235289999997" green="0.90588235289999997" blue="0.90588235289999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="65g-4O-zLC" firstAttribute="leading" secondItem="qZb-4G-9oj" secondAttribute="leading" id="O65-Ea-r1t"/>
+                            <constraint firstItem="65g-4O-zLC" firstAttribute="top" secondItem="GOq-Wa-l7L" secondAttribute="top" id="Og5-TO-j9f"/>
+                            <constraint firstItem="65g-4O-zLC" firstAttribute="bottom" secondItem="qZb-4G-9oj" secondAttribute="bottom" id="QWR-yq-sul"/>
+                            <constraint firstItem="65g-4O-zLC" firstAttribute="trailing" secondItem="qZb-4G-9oj" secondAttribute="trailing" id="gso-IF-81B"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="qZb-4G-9oj"/>
+                    </view>
+                    <connections>
+                        <outlet property="horizonWidth" destination="hab-Iz-pRD" id="Un6-fR-fGD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aoz-IE-Sg5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="748" y="27.436281859070466"/>
         </scene>
     </scenes>
 </document>
